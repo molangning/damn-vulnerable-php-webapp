@@ -1,4 +1,4 @@
-run = "php -S 0.0.0.0:8000 -t ."
+run = "./replit-run.sh"
 
 [nix]
 channel = "stable-22_11"
