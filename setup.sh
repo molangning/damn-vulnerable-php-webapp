@@ -1,5 +1,5 @@
-wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
-chmod +X cloudflared-linux-amd64
+wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared-linux-amd64
+chmod +x cloudflared-linux-amd64
 
 mkdir -p css
 mkdir -p js

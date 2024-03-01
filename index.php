@@ -19,7 +19,7 @@
     <h4 class="d-flex justify-content-center">There are in total 4 flags. You can do anything to get the flags. Good luck!</h4>
     </div>
     <p class="d-flex justify-content-center">
-      Psst... there is a flag on this page! And at web root!
+      Flags are in webroot, database, admin portal, this page and /etc/passwd. For /etc/passwd, the entire file is the flag.
     </p>
-    
+  </body>
 </html>

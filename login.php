@@ -2,11 +2,10 @@
   include 'utils.php';
   include 'db.php';
 
-  if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST['action'])) {
+  if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['action'])) {
     if ($_POST['action'] === 'Login' && !empty($_POST['username']) && !empty($_POST['password'])){
       $username = $_POST['username'];
       $password = $_POST['password'];
-      var_dump(checkLogin($username, $password));
       print(checkLogin($username, $password));
       if (checkLogin($username, $password) === true){
         $_SESSION['username'] = $username;
